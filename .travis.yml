@@ -41,7 +41,7 @@ matrix:
       before_script:
         - tools/travis/template_dm_generator.py
       script:
-        - tools/travis/dm.sh -DTRAVISBUILDING -DTRAVISTESTING -DALL_MAPS beestation.dme
+        - tools/travis/dm.sh -DTRAVISBUILDING -DTRAVISTESTING -DALL_MAPS bearaxestation.dme
 
     - name: "Compile and Run Tests"
       addons:
@@ -67,7 +67,7 @@ matrix:
         - mysql -u root -e 'CREATE DATABASE bee_travis;'
         - mysql -u root bee_travis < SQL/beestation_schema.sql
       script:
-        - tools/travis/dm.sh -DTRAVISBUILDING beestation.dme || travis_terminate 1
+        - tools/travis/dm.sh -DTRAVISBUILDING bearaxestation.dme || travis_terminate 1
         - tools/travis/run_server.sh
 
 #    - name: "Generate Documentation"
