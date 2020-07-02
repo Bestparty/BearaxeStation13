@@ -33,8 +33,8 @@ compile. This'll take a little while, and if everything's done right you'll get
 a message like this:
 
 ```
-saving beestation.dmb (DEBUG mode)
-beestation.dmb - 0 errors, 0 warnings
+saving bearaxestation.dmb (DEBUG mode)
+bearaxestation.dmb - 0 errors, 0 warnings
 ```
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt
