@@ -1,8 +1,6 @@
 <h1 align="center">BearaxeStation 13 Codebase</h1>
 
-**Website:** N/A
 **Code:** https://github.com/Tennessee116/BearaxeStation13
-**Wiki:** N/A
 **Discord:** https://discord.gg/GFJFHf6
 
 
